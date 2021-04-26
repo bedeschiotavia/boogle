@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto';
+    color:#5F6368 ;
+}
+
+/* BARRA NAVEGAÇÃO*/
+
+.navbar {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    margin-top: 40px;
+    
+}
+
+.links {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #5F6368;
+}
+
+a:visited {
+    color: #5F6368;
+}
+
+.icon {
+    font-size: 1.3rem;
+    border-radius: 100%;
+}
+
+.perfil{
+    display: flex;
+    width: 40%;
+    border-radius: 100%;
+}
+
+
+/* MAIN*/
+
+.block {
+    margin: auto;
+    width:50%;
+    text-align: center;
+    padding: 10%;
+}
+
+.logo {
+    margin-bottom: 5%;
+    
+}
+
+.searchbox {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 20px 9px 20px;
+    filter: drop-shadow(0px 0px 3px rgb(203, 201, 201));
+  }
+
+  #searchbar{
+      margin: 0 auto;
+      width: 100%;
+      font-size: 1rem;
+      padding: 0 20px;
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+
+  }
+
+
+
+
+
